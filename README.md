@@ -2,7 +2,7 @@
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a simple usage example of `split-react`.
+This is a simple usage example of [split-react](https://github.com/e-libs/split-react), a library that I maintain on **`e-libs`**.
 
 ## How to setup
 
