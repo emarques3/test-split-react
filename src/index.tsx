@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { SplitProvider } from 'split-react';
-import { config } from './split/config';
+import { CustomProvider } from './components/CustomProvider';
 
 ReactDOM.render(
-    <SplitProvider config={config}>
-      <App />
-    </SplitProvider>,
+  <CustomProvider>
+    <App />
+  </CustomProvider>,
   document.getElementById('root')
 );
 
