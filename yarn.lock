@@ -6432,6 +6432,10 @@ nanoid@^3.1.18:
   version "3.1.18"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.18.tgz#0680db22ab01c372e89209f5d18283d98de3e96d"
 
+nanoid@^3.1.20:
+  version "3.1.20"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
+
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -8769,9 +8773,9 @@ spdy@^4.0.2:
     select-hose "^2.0.0"
     spdy-transport "^3.0.0"
 
-split-react@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/split-react/-/split-react-0.0.3.tgz#d57ced92ebf3436f276ab35138927e258545d115"
+split-react@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/split-react/-/split-react-0.0.5.tgz#033c0800bba2aee30ef217c8c6f307e8df528277"
   dependencies:
     "@splitsoftware/splitio" "^10.15.2"
     uuid "^8.3.2"
