@@ -14,6 +14,8 @@ export const useCustomSplit = (splitName: string, defaultValue = true): boolean 
     // Subscribing to change events
     split?.on(splitName, id, (splitValue: string) => {
       setCurrentSplit(splitValue);
+      console.log('Look! This is your custom logic working');
+      
     });
 
     // Unsubscribing, on 'unmount'

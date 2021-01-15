@@ -21,5 +21,9 @@ export const CustomProvider = ({
 
 
   // Returns the provider with the FeatureFlags
-  return <CustomSplitContext.Provider value={{ split }}>{children}</CustomSplitContext.Provider>;
+  return (
+    <CustomSplitContext.Provider value={{ split }}>
+      {children}
+    </CustomSplitContext.Provider>
+  );
 };
