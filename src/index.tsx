@@ -7,9 +7,9 @@ import { SplitProvider } from 'split-react';
 import { config } from './split/config';
 
 ReactDOM.render(
-    <SplitProvider config={config}>
-      <App />
-    </SplitProvider>,
+  <SplitProvider config={config}>
+    <App />
+  </SplitProvider>,
   document.getElementById('root')
 );
 

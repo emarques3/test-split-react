@@ -34,3 +34,29 @@ export const config: SplitConfig = {
 
 ## See it in action 🎥
 ![](src/flag.gif)
+
+## Hook and HOC
+
+You'll notice there are two implementations: one using [React Hooks](https://reactjs.org/docs/hooks-intro.html) (enabled by default in this demo), and another one using a [High Order Component](https://reactjs.org/docs/higher-order-components.html) (aka HOC), which you may enable too. They both accomplish the same goal, they're just two well known approaches you may choose, according to your project.
+
+To do so, simply uncomment those two lines below:
+
+```tsx
+import React from 'react';
+import './App.css';
+import { Test } from './components/Test';
+// import TestHOC from './components/TestHOC';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <Test splitName="test1" />
+        {/* <TestHOC /> */}
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
