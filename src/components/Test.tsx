@@ -5,9 +5,6 @@ export const Test = ({ splitName }: { splitName: string }) => {
   const color = split ? '#00FF00' : '#FF0000';
 
   return (
-    <>
-      <h1>Test</h1>
-      <h2>The flag <i>{splitName}</i> is <strong style={{ color }}>{split ? 'ON' : 'OFF'}</strong></h2>
-    </>
+    <h1>Hook: The flag <i>{splitName}</i> is <strong style={{ color }}>{split ? 'ON' : 'OFF'}</strong></h1>
   );
 };
