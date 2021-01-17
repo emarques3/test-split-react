@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 import { Test } from '../Test';
-// import TestHOC from './components/TestHOC';
+// import TestHOC from '../TestHOC';
 
 function App() {
   return (
